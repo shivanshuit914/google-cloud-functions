@@ -1,4 +1,4 @@
 # Google cloud functions
 
 ```bash
-gcloud functions deploy get --runtime nodejs8 --trigger-http
+gcloud functions deploy getId --runtime nodejs8 --trigger-http

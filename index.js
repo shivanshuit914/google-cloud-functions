@@ -1,16 +1,12 @@
 const uuidv4 = require('uuid/v4');
 
-exports.user = (req, res) => {
+exports.getId = (req, res) => {
     switch (req.method) {
         case 'GET':
-          handleGET(req, res);
-          break;
+            res.status(200).send({id: uuidv4()});
+            break;
         default:
-          res.status(405).send({error: 'Error!'});
-          break;
+            res.status(405).send({error: 'Error!'});
+            break;
       }
 };
-
-function handleGET(req, res) {
-    res.status(200).send({user: uuidv4()});
-}
