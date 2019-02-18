@@ -8,5 +8,5 @@ exports.getId = (req, res) => {
         default:
             res.status(405).send({error: 'Error!'});
             break;
-      }
+    }
 };
