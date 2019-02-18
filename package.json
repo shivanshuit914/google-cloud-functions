@@ -1,0 +1,19 @@
+{
+  "name": "gcp-functions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "commit": "npx git-cz"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "commitizen": "^3.0.5",
+    "cz-conventional-changelog": "^2.1.0"
+  },
+  "dependencies": {
+    "uuid": "^3.3.2"
+  }
+}
